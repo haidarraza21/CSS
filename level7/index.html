@@ -1,0 +1,42 @@
+<!--Problem:
+Create a webpage with a progress bar that showcases a smooth loading animation. The progressbbar should fill up from 0 to 100% with a smooth transition effevt and a slight bounce when it reaches 100%-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice-set-level-7</title>
+    <style>
+        .progress_container{
+            height: 25px;
+            width: 90%;
+            border: 2px solid black;
+            border-radius: 20px;
+            position: relative;
+            left: 4%;
+        }
+        .progress_bar{
+            height: 100%;
+            
+            border-radius: 20px;
+            background-color: green;
+            animation: animate_progress 3s ;
+        }
+        @keyframes animate_progress{
+            0%{width: 0%;}
+            90%{width: 90%;}
+            95%{width: 75%;}
+            100%{width: 100%;}
+        }
+
+    </style>
+</head>
+<body>
+    <div class="progress_container">
+        <div class="progress_bar">
+
+        </div>
+    </div>
+</body>
+</html>

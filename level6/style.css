@@ -1,0 +1,40 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+img {
+    height: 80px;
+}
+
+header {
+    height: 96px;
+    background-color: #0066A4;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+#link {
+    justify-content: space-evenly;
+    padding: 40px;
+
+}
+
+
+a {
+    color: white;
+    margin: 10px;
+    font-size: 13px;
+}
+
+button {
+    color: white;
+    background-color: red;
+}

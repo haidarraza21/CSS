@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#logo {
+    height: 50px;
+}
+
+#nav {
+    display: flex;
+
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+
+#link {
+    margin-top: 11px;
+}
+
+#main {
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border-radius: 50%;
+
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color: aqua;
+    display: inline-block;
+}
+
+#container {
+
+    border: 2px solid black;
+}
+
+#fixed {
+    position: fixed;
+    right: 10px;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+}

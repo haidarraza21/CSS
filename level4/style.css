@@ -1,0 +1,27 @@
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+button {
+    padding: 10px 15px 10px 15px;
+    margin: 100px;
+    border: 2px dotted red;
+    border-radius: 50%;
+}
+
+.box1 {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    box-sizing: content-box;
+    margin: 10px;
+}
+
+.box2 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(238, 27, 80);
+    box-sizing: border-box;
+}
