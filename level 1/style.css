@@ -1,0 +1,33 @@
+h1 {
+    color: red;
+}
+
+/*Internal*/
+h2 {
+    color: brown;
+}
+
+/*This is elements selector*/
+h3 {
+    color: chocolate;
+}
+
+/*This is id selector*/
+#second_heading {
+    color: chartreuse;
+}
+
+#random_text {
+    color: bisque;
+}
+
+/*This is class selector*/
+.text {
+    color: blue;
+}
+
+/*This is group selector*/
+#first,
+#second {
+    color: hotpink;
+}
